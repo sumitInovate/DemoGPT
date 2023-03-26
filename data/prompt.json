@@ -1,0 +1,11 @@
+[
+        {"prompt": "Order not submitted 406 ->", "completion": " Request SAP team to add country to OMP or raise to IM360 team who can redirect you to OMP team\n"},
+        {"prompt": "GST failed ->", "completion": " Check API could be down. Ask EAI to enable, send API link\\/name to ITEAI NON PROD SUPPORT distribution list\n"},
+        {"prompt": "Bundle Creation Error ->", "completion": " Business must update the SKU in Impulse if they plan to attach ACOP, etc onto the SKU then SKU must not be zero$\n"},
+        {"prompt": "Magic Keys in IM360 and Impulse don't match ->", "completion": " Check with COP team if server is down and need to sync back CCW with COP. Ask business to check. If versions are different, ask business to refresh deal to update to next version in both COP and CCW\n"},
+        {"prompt": "Generate ACOP error - Deal not found in Bid database for CompanyCode ->", "completion": " API connection with COP tool may be broken. Ask IM360 support to fix connection. Once IM360 confirms back, then try Generate ACOP again\n"},
+        {"prompt": "Missing Reseller App record ->", "completion": " Auto-assignment flow may be disabled, hence app record got created but is stuck\\/assigned to SYSTEM.\n"},
+        {"prompt": "Portal login issue - Reseller cannot login ->", "completion": " This happens if reseller is an existing Contact in CRM\n"},
+        {"prompt": "Check if Docusign was sent to Reseller ->", "completion": " Contact APAC IS \\/IM360 Global Support (Pinky\\/Ajinkya)\n"},
+        {"prompt": "SAP account creation automation issue - Wrong Email ID set in SAP \\/ Alternate Email ID not set in SAP ->", "completion": " Workaround: Update Email ID in SAP with correct one \\/Alternate Email\n"}
+]
