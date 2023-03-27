@@ -3,11 +3,16 @@ import json
 from gpt_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain import OpenAI
 import os
-import key
+from dotenv import load_dotenv
+
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+API_KEY = os.environ.get("api_key")
 
 app = Flask(__name__)
 
-os.environ['OPENAI_API_KEY'] = key.api_key
+os.environ['OPENAI_API_KEY'] = API_KEY
 
 # Import JSON File
 f = open(os.path.join(os.getcwd(), 'data/prompt.json'))
