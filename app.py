@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 
 # Import JSON File
 f = open('./data/prompt.json')
@@ -62,4 +62,4 @@ def create():
     return jsonify({"Response": response.response})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
