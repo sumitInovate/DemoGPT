@@ -23,11 +23,11 @@ def construct_index(directory_path):
     #set maximum input size
     max_input_size = 4096
     #set number of output tokens
-    num_outputs = 500
+    num_outputs = 100
     #set maximum chunks overlap
     max_chunk_overlap = 20
     #set chunk size limit
-    chunk_size_limit = 600
+    chunk_size_limit = 200
 
 
     #define LLM
